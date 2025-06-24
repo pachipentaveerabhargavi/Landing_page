@@ -1,0 +1,32 @@
+.container_one{
+    display:flex;
+    justify-content: left;
+    gap:1em;
+    align-items: first baseline;
+
+
+}
+
+ .logo{
+    flex: 2 1 0 ;
+} 
+
+.container_two{
+    display:flex;
+    flex-direction: row;
+    font-size: 12px;
+    align-items: last baseline;
+    align-items: end;
+    border: solid blueviolet
+}
+
+.container_two_one{
+    align-items: start;
+    background-color: black;
+    border:solid brown
+
+
+}
+
+
+

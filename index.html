@@ -1,53 +1,88 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel = "stylesheet" href ="style.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Landing page</title>
     </head>
+
     <body>
-        <header>
-            <nav class="container_one">
-                <h3 class ="logo">Header logo</h3>
-                <a href>header link one</a>
-                <a href>header link one</a>
-                <a href>header link one</a>
-            </nav>    
-        <main>
-            <section>
-                <h1> This website is awesome</h1>
-                <p>this website has some subtext that goes here under the main title. its a smaller font and the color is lower contrast</p>
-                <button>Sign up</button>
-            </section>
-            <section>
-                <h1>Some random information</h1>
-            
-                <div class="container_two">
-                    <div class="container_two_one">
-                    <div ></div>
-                    <div></div>
-                    <div ></div>
-                    <div ></div>
-                    </div>
-                
-                    <p>this is some text under illustration or image</p>
-                    <p>this is some text under illustration or image</p>
-                    <p>this is some text under illustration or image</p>
-                    <p>this is some text under illustration or image</p>
+    <div class="main">
+
+        <div class="header">
+
+            <div class="logo">
+                Header Logo
+            </div>
+            <ul class="header_links">
+                <li>
+                    <a href ="header_link1">link_one</a>
+                    <a href ="header_two">link_two</a>
+                    <a href ="header_three">link_three</a>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="welcome">
+            <div class="left_align">
+            <h1 id="welcome">This website is awesome</h1>
+            <div class="text">This website has some subtext that goes here under the main title.it's a smaller font and the color is lower contrast</div>
+            <button class="signup" >Sign up</button>
+            </div>
+            <div class="right_align">
+            <div class="placeholder">this is a placeholder for an image</div>
+            </div>
+        </div>
+    </div>
+    <h1 id="info">Some random information</h1>
+            <div class="info">
+                <div >
+                <div class="box"></div>
+                <div class="sub_text">This is some subtext under an illustration</div>
                 </div>
-            </section>
-            <section>
-                <p>this is an inspiring quote ,or a testimonal from a customer.Maybe its just filling up space or maybe people will actually read it?</p>
-                <h4>-name</h4>
-            </section>
 
-        </main>
-        <footer>
-            <h3>Call action ! its time!</h3>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <button>Sign up</button>
+                <div>
+                <div class="box"></div>
+                <div class="sub_text">This is some subtext under an illustration</div>
+                </div>
 
-        </footer>
+                <div>
+                <div class="box"></div>
+                <div class="sub_text">This is some subtext under an illustration</div>
+                </div>
 
-            
-        </header>
+                <div>
+                <div class="box"></div>
+                <div class="sub_text">This is some subtext under an illustration</div>
+                </div>
+            </div>
+
+            <div class="quote">
+                <h1 id="quote">
+                    this is an inspiring quote, or a testimonal from a customer
+                </h1>
+                <h4>-the author</h4>
+            </div>
+
+
+        <div class="above_footer">
+            <div class="sign_up">
+                <div class="action">
+                <div>Call to action! it's time!</div>
+                <div>sign up for our product by clicking that button right over there!</div>
+                </div>
+                <button id="super_sign_up" >Sign up</button>
+            </div>
+
+            </div>
+
+        </div>
+        <div class="footer">
+            <h3>copyright &#169 odin project 2021</h3>
+        </div>
+
+
+        
+
     </body>
+
 </html>

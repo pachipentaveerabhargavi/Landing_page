@@ -1,3 +1,3 @@
 # Landing_page
 
-creating a landing page using #html and #css
+landing page using #html and #css
